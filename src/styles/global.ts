@@ -8,6 +8,12 @@ export const COLORS = {
   gray600: '#ADB3C5',
   gray700: '#9EA5BB',
   gray800: '#767C91',
+
+  grayBackground: '#2C2C36',
+
+  blue: {
+    main: '#006BFF',
+  }
 };
 
 // 필요해지면 폰트 프리셋 추가
