@@ -15,8 +15,8 @@ const Tab = createBottomTabNavigator<MainTabParamList>();
 export default function MainTabs() {
   return (
     <Tab.Navigator screenOptions={{ headerShown: false }}>
-      <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Foreign" component={ForeignScreen} />
+      <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="MyPage" component={MyPageScreen} />
     </Tab.Navigator>
   );
